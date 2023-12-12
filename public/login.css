@@ -1,0 +1,81 @@
+:root {
+    --login-m: .75rem;
+    --button-m: 1rem;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url("/fonts/Poppins-Medium.ttf");
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url("/fonts/Poppins-Regular.ttf");
+}
+
+body {
+    background-color: rgb(253, 253, 253);
+    font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+    margin-top: 10rem;
+}
+
+#login-form {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    text-align: left;
+
+    flex-direction: column;
+
+    padding: 3rem 8rem 8rem 8rem;
+
+    background: rgba(255, 255, 255, 0.26);
+    border-radius: 16px;
+    box-shadow: 0 7px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.7px);
+    -webkit-backdrop-filter: blur(7.7px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#login-form h2 {
+    font-size: calc(var(--login-m) + 1.5rem);
+    text-align: left;    
+    font-family: Poppins-Regular, Verdana, Geneva, Tahoma, sans-serif;
+
+    letter-spacing: .1rem;
+}
+
+#login-form input {
+    margin-bottom: 1rem;
+    margin-top: .25rem;
+
+    border: 1px solid rgb(194, 194, 194, 90%);
+
+    padding: .45rem 3.5rem .45rem 1rem;
+}
+
+#login-form input:focus {
+    outline: 1px solid rgb(194, 194, 194, 90%);
+}
+
+#login-form button {
+    padding: .8rem 1.7rem .8rem 1.7rem;
+    border: none;
+    color: white;
+    background-color: rgb(59, 88, 70);
+    border-radius: 5px;
+
+    cursor: pointer;
+    font-family: Poppins-Regular, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: calc(var(--button-m));
+}

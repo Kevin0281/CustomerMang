@@ -1,3 +1,25 @@
-p {
-    color: red;
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --footer-m: .75rem;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 3rem;
+
+    color: rgb(97, 97, 97, 80%);
+    font-size: calc(var(--footer-m) + .3rem);
+    font-family: Poppins-Regular, Verdana, Geneva, Tahoma, sans-serif;
 }

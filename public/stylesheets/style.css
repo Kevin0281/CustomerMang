@@ -14,24 +14,3 @@ body {
     font-size: var(--fs-m);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-/* Navbar Example */
-.nav-ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    gap: 3.5rem;
-
-    list-style: none;
-    font-size: calc(var(--fs-m) + .25rem);
-}
-
-.nav-ul li a{
-    text-decoration: none;
-    color: black;
-}
-
-.nav-ul li:hover {
-    cursor: pointer;
-}
